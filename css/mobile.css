@@ -1,0 +1,71 @@
+/* mobile.css */
+
+/* General adjustments for small screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .home-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section {
+        max-width: 100%;
+    }
+
+    .profile-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .social-media-icons a {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    .heading-big {
+        font-size: 2rem;
+    }
+
+    .heading-medium {
+        font-size: 1.75rem;
+    }
+
+    .heading-small {
+        font-size: 1.25rem;
+    }
+
+    footer {
+        padding: 0.5rem 0;
+    }
+
+    footer p {
+        font-size: 0.875rem;
+    }
+}
